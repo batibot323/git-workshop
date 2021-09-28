@@ -1,6 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
+# Please adapt for your name and email.
+# You can copy these contents over your .gitconfig in your Users folder. C:\Users\hanih
 	name = Hani Ho
 	email = my.dummy.email@gmail.com
 
