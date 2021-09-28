@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Hani Ho
+	email = my.dummy.email@gmail.com
+
+[alias]
+co = checkout
+br = branch
+ci = !git commit -a -m # git ci "My commit message."
+l = !git log --pretty=oneline # More compact log
+piggy-back = !git add * && git commit --amend --no-edit # Add our current changes to the previous commit
+amend = !git commit --amend -a -m # git amend "My new commit message."
+graph = !git log --all --decorate --oneline --graph
+[core]
+	safecrlf = false
